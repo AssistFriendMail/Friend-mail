@@ -1,0 +1,16 @@
+spring.application.name=demo
+spring.datasource.url=jdbc:postgresql://localhost:5432/seu_banco
+spring.datasource.username=seu_user
+spring.datasource.password=sua_senha
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# JPA/Hibernate
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=false
+
+mail.imap.host=imap.gmail.com
+mail.imap.port=993
+mail.imap.username=example@gmail.com
+mail.imap.password=sua senha de app
+mail.imap.folder=INBOX
